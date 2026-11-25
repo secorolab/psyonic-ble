@@ -16,10 +16,17 @@ It implements the BLE command set documented in PSYONIC's
 
 ## Install
 
+From GitHub:
+
 ```bash
-uv tool install -e .          # puts `psyonic-ble` on your PATH
-# or, without installing:
-uv run psyonic-ble --help
+uv tool install git+https://github.com/secorolab/psyonic-ble       # puts `psyonic-ble` on your PATH
+uv tool upgrade psyonic-ble                                        # update later
+```
+
+From a local checkout:
+
+```bash
+uv tool install -e .          # editable install, puts `psyonic-ble` on your PATH
 ```
 
 ## Usage
